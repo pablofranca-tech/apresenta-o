@@ -1,0 +1,138 @@
+/* Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00f;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.header .logo {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+/* Seções dos semestres */
+.semester-section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.semester-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #00f;
+}
+
+.semester-description {
+    margin-bottom: 15px;
+}
+
+.subjects {
+    list-style: none;
+    padding: 0;
+}
+
+.subjects li {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+/* Imagem de semestre */
+.semester-image {
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+/* Aprendizado de inglês */
+.english-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.english-image {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Certificações */
+.certification-section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #222;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.certification-list {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.certification-list li {
+    font-size: 1.2rem;
+    background: #333;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+
